@@ -2,7 +2,6 @@
 
 [![Build Status](https://github.com/vietwow/terraform-aws-devcafe/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/vietwow/terraform-aws-devcafe)
 [![Latest Release](https://img.shields.io/github/release/vietwow/terraform-aws-devcafe.svg)](https://github.com/vietwow/terraform-aws-devcafe/releases/latest)
-
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.14.0-blue.svg)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
