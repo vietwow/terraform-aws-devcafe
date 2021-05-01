@@ -1,17 +1,5 @@
 # terraform-aws-devcafe
 
-[![Infrastructure Tests]()
-[![Infrastructure Tests]()
-[![Infrastructure Tests]()
-[![Infrastructure Tests]()
-[![Infrastructure Tests]()
-[![Infrastructure Tests]()
-[![Infrastructure Tests]()
-[![Infrastructure Tests]()
-[![Infrastructure Tests]()
-[![Infrastructure Tests]()
-[![Infrastructure Tests]()
-[![Infrastructure Tests]()
 
 ## Introduction
 
