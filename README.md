@@ -1,6 +1,5 @@
 # terraform-aws-devcafe
 
-
 ## Introduction
 
 
@@ -22,3 +21,38 @@ Security scanning is graciously provided by Bridgecrew. Bridgecrew is the leadin
 | [![CIS GCP](https://www.bridgecrew.cloud/badges/github/vietwow/terraform-aws-devcafe/cis_gcp)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=vietwow%2Fterraform-aws-devcafe&benchmark=CIS+GCP+V1.1) | Center for Internet Security, GCP Compliance |
 | [![HIPAA](https://www.bridgecrew.cloud/badges/github/vietwow/terraform-aws-devcafe/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=vietwow%2Fterraform-aws-devcafe&benchmark=HIPAA) | Health Insurance Portability and Accountability Compliance |
 | [![FEDRAMP (MODERATE)](https://www.bridgecrew.cloud/badges/github/vietwow/terraform-aws-devcafe/fedramp_moderate)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=vietwow%2Fterraform-aws-devcafe&benchmark=FEDRAMP+%28MODERATE%29) | FedRAMP (Moderate) Compliance |
+
+## Requirements
+
+No requirements.
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| aws | n/a |
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| cidr\_block | The CIDR block for the VPC | `string` | n/a | yes |
+| enable\_dns\_hostnames | A boolean flag to enable/disable DNS hostnames in the VPC | `bool` | `true` | no |
+| enable\_dns\_support | A boolean flag to enable/disable DNS support in the VPC | `bool` | `true` | no |
+| name | The project name | `string` | `"nashtech"` | no |
+| private\_subnets | A list of private subnets inside the VPC | `list(string)` | n/a | yes |
+| public\_subnets | A list of public subnets inside the VPC | `list(string)` | n/a | yes |
+| tags | A map of tags to add to all resources | `map(string)` | `{}` | no |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| default\_security\_group\_id | n/a |
+| private\_subnet\_cidr | n/a |
+| private\_subnet\_id | n/a |
+| public\_subnet\_cidr | n/a |
+| public\_subnet\_id | n/a |
+| vpc\_id | VPC |
+| vpc\_ipv4\_cidr\_block | n/a |
+| vpc\_ipv6\_cidr\_block | n/a |
